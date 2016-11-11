@@ -1,19 +1,17 @@
-platform :ios, '7.0'
+platform :ios, '9.0'
+use_frameworks!
 
-pod 'VENCore', '~> 3.1'
-pod 'CMDQueryStringSerialization', '~> 0.2'
-pod 'SSKeychain', '~> 1.2'
+target 'venmo-sdk' do
+  pod 'CMDQueryStringSerialization', '~> 0.2'
+  pod 'VENCore', '~> 3.1'
 
-target 'venmo-sdk-specs' do
-  pod 'Specta'
-  pod 'Expecta'
-  pod 'OCMock', '~> 2.2.4'
-  pod 'Nocilla'
-end
-
-target 'venmo-sdk-integration-specs' do
-  pod 'Specta'
-  pod 'Expecta'
-  pod 'OCMock', '~> 2.2.4'
-  pod 'Nocilla'
+  abstract_target 'specs' do
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'OCMock', '~> 2.2.4'
+    pod 'Nocilla'
+    
+    target 'venmo-sdk-specs'
+    target 'venmo-sdk-integration-specs'
+  end
 end
