@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06F641426A5BA89D9A6726EA /* Pods_venmo_sdk_venmo_sdk_integration_specs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63956DBDCF6AB940A3BA2270 /* Pods_venmo_sdk_venmo_sdk_integration_specs.framework */; };
-		2A0B2F9C67B11EB8090D4C78 /* Pods_venmo_sdk_integration_specs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9709C18858F7272535EA1CC /* Pods_venmo_sdk_integration_specs.framework */; };
 		2D5EF54617EF41B100DDD15A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5EF54517EF41B100DDD15A /* Foundation.framework */; };
 		2D5EF55517EF41B100DDD15A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5EF54517EF41B100DDD15A /* Foundation.framework */; };
 		2D5EF56017EF41B100DDD15A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D5EF55E17EF41B100DDD15A /* InfoPlist.strings */; };
@@ -42,7 +40,6 @@
 		75607DC41DDBC33700BDB0DB /* VENSession.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F5046118E38C2600BDACF7 /* VENSession.m */; };
 		75607DC51DDBC34100BDB0DB /* VENPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F5045F18E38C2600BDACF7 /* VENPermission.m */; };
 		75607DC61DDBC34100BDB0DB /* VENPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F5045F18E38C2600BDACF7 /* VENPermission.m */; };
-		B56DD165F74E2A9C05887870 /* Pods_venmo_sdk_specs_venmo_sdk_specs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17454811665616E32239C80D /* Pods_venmo_sdk_specs_venmo_sdk_specs.framework */; };
 		B611893A18A188AE0041AF50 /* VENPermissionConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = B611893918A188AE0041AF50 /* VENPermissionConstants.h */; };
 		B62D59BC18973D71001E46A4 /* VENURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B62D59BA18973D71001E46A4 /* VENURLProtocol.h */; };
 		B62D59BD18973D71001E46A4 /* VENURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = B62D59BB18973D71001E46A4 /* VENURLProtocol.m */; };
@@ -75,9 +72,6 @@
 		B657433B1897390200AFB89D /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = B657432D1897390200AFB89D /* UIDevice+IdentifierAddition.m */; };
 		B6588AF118A02E1000A0C73B /* VENPermissionSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B6588AEF18A02D8400A0C73B /* VENPermissionSpec.m */; };
 		B6588AFA18A0554200A0C73B /* VenmoSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B6588AF918A0554200A0C73B /* VenmoSpec.m */; };
-		C0431495935F131C6BE185F9 /* Pods_venmo_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D2A1C7AD6756ED67AB9FF3 /* Pods_venmo_sdk.framework */; };
-		D379B0921E2C25E1DFA1D4B1 /* Pods_venmo_sdk_specs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8380B9218B7D68B1F4B482C9 /* Pods_venmo_sdk_specs.framework */; };
-		D781F2309010D0C4558653A4 /* Pods_venmo_sdk_specs_venmo_sdk_integration_specs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABDE2225BE88C4013A5C66A /* Pods_venmo_sdk_specs_venmo_sdk_integration_specs.framework */; };
 		EB3499BA190AF8D400C74EAA /* VENTransaction+VenmoSDKSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B810A918A1842B00FD8955 /* VENTransaction+VenmoSDKSpec.m */; };
 		EB49E22C19266E0D008EA5DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5EF54517EF41B100DDD15A /* Foundation.framework */; };
 		EB49E23319266E0D008EA5DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB49E23119266E0D008EA5DC /* InfoPlist.strings */; };
@@ -89,7 +83,6 @@
 		EBDCA6DE1911859900FDD5ED /* NSURL+VenmoSDKSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = EBDCA6DD1911859900FDD5ED /* NSURL+VenmoSDKSpec.m */; };
 		EBEAB6A6190ACA4700BA6322 /* VENTransaction+VenmoSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = EBEAB6A4190ACA4700BA6322 /* VENTransaction+VenmoSDK.h */; };
 		EBEAB6A7190ACA4700BA6322 /* VENTransaction+VenmoSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEAB6A5190ACA4700BA6322 /* VENTransaction+VenmoSDK.m */; };
-		F49EDFD248A3D59E574432B1 /* Pods_venmo_sdk_venmo_sdk_specs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A4B1F5ED2733600AD408D0 /* Pods_venmo_sdk_venmo_sdk_specs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,35 +116,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		17454811665616E32239C80D /* Pods_venmo_sdk_specs_venmo_sdk_specs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_venmo_sdk_specs_venmo_sdk_specs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5EF54217EF41B100DDD15A /* libvenmo-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libvenmo-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5EF54517EF41B100DDD15A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2D5EF55217EF41B100DDD15A /* venmo-sdk-specs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "venmo-sdk-specs.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D5EF55317EF41B100DDD15A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2D5EF55D17EF41B100DDD15A /* venmo-sdk-specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "venmo-sdk-specs-Info.plist"; path = "Supporting Files/venmo-sdk-specs-Info.plist"; sourceTree = "<group>"; };
 		2D5EF55F17EF41B100DDD15A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D5EF5B417EF450E00DDD15A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3948D1AF1BF67196007FF947 /* VENKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VENKeychain.h; sourceTree = "<group>"; };
 		3948D1B01BF67196007FF947 /* VENKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VENKeychain.m; sourceTree = "<group>"; };
 		3948D1B31BF68E61007FF947 /* VENKeychainSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VENKeychainSpec.m; sourceTree = "<group>"; };
-		3948D1B51BF69360007FF947 /* libPods-venmo-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-venmo-sdk.a"; path = "Pods/../build/Debug-iphoneos/libPods-venmo-sdk.a"; sourceTree = "<group>"; };
-		3948D1B71BF69893007FF947 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
-		3948D1BB1BF698A8007FF947 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		47F6A8D7FDA73FF5695B7C26 /* Pods-venmo-sdk-specs-venmo-sdk-integration-specs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk-specs-venmo-sdk-integration-specs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk-specs-venmo-sdk-integration-specs/Pods-venmo-sdk-specs-venmo-sdk-integration-specs.debug.xcconfig"; sourceTree = "<group>"; };
-		510F0726432616D68E29CCC9 /* Pods-venmo-sdk-specs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk-specs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk-specs/Pods-venmo-sdk-specs.debug.xcconfig"; sourceTree = "<group>"; };
-		63956DBDCF6AB940A3BA2270 /* Pods_venmo_sdk_venmo_sdk_integration_specs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_venmo_sdk_venmo_sdk_integration_specs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B4ADE1295EBB890F10953C9 /* Pods-venmo-sdk-specs-venmo-sdk-integration-specs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk-specs-venmo-sdk-integration-specs.release.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk-specs-venmo-sdk-integration-specs/Pods-venmo-sdk-specs-venmo-sdk-integration-specs.release.xcconfig"; sourceTree = "<group>"; };
 		732921D3A2D02063FA42B2F8 /* Pods-venmo-sdk-specs-venmo-sdk-specs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk-specs-venmo-sdk-specs.release.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk-specs-venmo-sdk-specs/Pods-venmo-sdk-specs-venmo-sdk-specs.release.xcconfig"; sourceTree = "<group>"; };
 		799DE81C38EDBF246675B59F /* Pods-venmo-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk/Pods-venmo-sdk.debug.xcconfig"; sourceTree = "<group>"; };
 		7B6A506CAC62C80D966C7936 /* Pods-venmo-sdk-specs-venmo-sdk-specs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk-specs-venmo-sdk-specs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk-specs-venmo-sdk-specs/Pods-venmo-sdk-specs-venmo-sdk-specs.debug.xcconfig"; sourceTree = "<group>"; };
-		7BCC0CEBE52DEBF579DA9CF2 /* Pods-venmo-sdk-integration-specs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk-integration-specs.release.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk-integration-specs/Pods-venmo-sdk-integration-specs.release.xcconfig"; sourceTree = "<group>"; };
-		8380B9218B7D68B1F4B482C9 /* Pods_venmo_sdk_specs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_venmo_sdk_specs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8ABDE2225BE88C4013A5C66A /* Pods_venmo_sdk_specs_venmo_sdk_integration_specs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_venmo_sdk_specs_venmo_sdk_integration_specs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99A71299EF58438D03B3F658 /* Pods-venmo-sdk-specs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk-specs.release.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk-specs/Pods-venmo-sdk-specs.release.xcconfig"; sourceTree = "<group>"; };
-		A0948B522131ACFFAE112FE0 /* Pods-venmo-sdk-integration-specs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk-integration-specs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk-integration-specs/Pods-venmo-sdk-integration-specs.debug.xcconfig"; sourceTree = "<group>"; };
 		A25572C42FBECBD50EF8743F /* Pods-venmo-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk.release.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk/Pods-venmo-sdk.release.xcconfig"; sourceTree = "<group>"; };
-		A48D17DE8BBBBC10B0EDDFAC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7D2A1C7AD6756ED67AB9FF3 /* Pods_venmo_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_venmo_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B611893918A188AE0041AF50 /* VENPermissionConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VENPermissionConstants.h; sourceTree = "<group>"; };
 		B611893B18A189800041AF50 /* VENSessionSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VENSessionSpec.m; sourceTree = "<group>"; };
 		B62D59BA18973D71001E46A4 /* VENURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VENURLProtocol.h; sourceTree = "<group>"; };
@@ -189,12 +168,6 @@
 		B6F5045F18E38C2600BDACF7 /* VENPermission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VENPermission.m; sourceTree = "<group>"; };
 		B6F5046018E38C2600BDACF7 /* VENSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VENSession.h; sourceTree = "<group>"; };
 		B6F5046118E38C2600BDACF7 /* VENSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VENSession.m; sourceTree = "<group>"; };
-		B9709C18858F7272535EA1CC /* Pods_venmo_sdk_integration_specs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_venmo_sdk_integration_specs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCB22376DA5FB91506FBD783 /* Pods-venmo-sdk-venmo-sdk-integration-specs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk-venmo-sdk-integration-specs.release.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk-venmo-sdk-integration-specs/Pods-venmo-sdk-venmo-sdk-integration-specs.release.xcconfig"; sourceTree = "<group>"; };
-		BD7D8F8DD958778E345B95E1 /* Pods-venmo-sdk-venmo-sdk-specs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk-venmo-sdk-specs.release.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk-venmo-sdk-specs/Pods-venmo-sdk-venmo-sdk-specs.release.xcconfig"; sourceTree = "<group>"; };
-		C7E8CF4140D29B63CA6F6141 /* Pods-venmo-sdk-venmo-sdk-specs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk-venmo-sdk-specs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk-venmo-sdk-specs/Pods-venmo-sdk-venmo-sdk-specs.debug.xcconfig"; sourceTree = "<group>"; };
-		D79349AB8C1EC9DB5D94207D /* Pods-venmo-sdk-venmo-sdk-integration-specs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-venmo-sdk-venmo-sdk-integration-specs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-venmo-sdk-venmo-sdk-integration-specs/Pods-venmo-sdk-venmo-sdk-integration-specs.debug.xcconfig"; sourceTree = "<group>"; };
-		D9A4B1F5ED2733600AD408D0 /* Pods_venmo_sdk_venmo_sdk_specs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_venmo_sdk_venmo_sdk_specs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3499BB190AF91500C74EAA /* venmo-sdk-specs-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "venmo-sdk-specs-Prefix.pch"; path = "Supporting Files/venmo-sdk-specs-Prefix.pch"; sourceTree = "<group>"; };
 		EB49E22A19266E0D008EA5DC /* venmo-sdk-integration-specs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "venmo-sdk-integration-specs.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB49E23019266E0D008EA5DC /* venmo-sdk-integration-specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "venmo-sdk-integration-specs-Info.plist"; sourceTree = "<group>"; };
@@ -217,7 +190,6 @@
 			files = (
 				2D5EF5B517EF450E00DDD15A /* UIKit.framework in Frameworks */,
 				2D5EF54617EF41B100DDD15A /* Foundation.framework in Frameworks */,
-				C0431495935F131C6BE185F9 /* Pods_venmo_sdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,9 +199,6 @@
 			files = (
 				2D5EF55517EF41B100DDD15A /* Foundation.framework in Frameworks */,
 				3948D1B91BF6989D007FF947 /* libvenmo-sdk.a in Frameworks */,
-				D379B0921E2C25E1DFA1D4B1 /* Pods_venmo_sdk_specs.framework in Frameworks */,
-				F49EDFD248A3D59E574432B1 /* Pods_venmo_sdk_venmo_sdk_specs.framework in Frameworks */,
-				B56DD165F74E2A9C05887870 /* Pods_venmo_sdk_specs_venmo_sdk_specs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,9 +208,6 @@
 			files = (
 				EB49E22C19266E0D008EA5DC /* Foundation.framework in Frameworks */,
 				3948D1BA1BF698A3007FF947 /* libvenmo-sdk.a in Frameworks */,
-				2A0B2F9C67B11EB8090D4C78 /* Pods_venmo_sdk_integration_specs.framework in Frameworks */,
-				06F641426A5BA89D9A6726EA /* Pods_venmo_sdk_venmo_sdk_integration_specs.framework in Frameworks */,
-				D781F2309010D0C4558653A4 /* Pods_venmo_sdk_specs_venmo_sdk_integration_specs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,20 +239,8 @@
 		2D5EF54417EF41B100DDD15A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3948D1BB1BF698A8007FF947 /* libPods.a */,
-				3948D1B71BF69893007FF947 /* libPods.a */,
-				3948D1B51BF69360007FF947 /* libPods-venmo-sdk.a */,
 				2D5EF5B417EF450E00DDD15A /* UIKit.framework */,
 				2D5EF54517EF41B100DDD15A /* Foundation.framework */,
-				2D5EF55317EF41B100DDD15A /* XCTest.framework */,
-				A48D17DE8BBBBC10B0EDDFAC /* libPods.a */,
-				B9709C18858F7272535EA1CC /* Pods_venmo_sdk_integration_specs.framework */,
-				8380B9218B7D68B1F4B482C9 /* Pods_venmo_sdk_specs.framework */,
-				A7D2A1C7AD6756ED67AB9FF3 /* Pods_venmo_sdk.framework */,
-				63956DBDCF6AB940A3BA2270 /* Pods_venmo_sdk_venmo_sdk_integration_specs.framework */,
-				D9A4B1F5ED2733600AD408D0 /* Pods_venmo_sdk_venmo_sdk_specs.framework */,
-				8ABDE2225BE88C4013A5C66A /* Pods_venmo_sdk_specs_venmo_sdk_integration_specs.framework */,
-				17454811665616E32239C80D /* Pods_venmo_sdk_specs_venmo_sdk_specs.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -345,16 +299,8 @@
 		4F8256C164D23617F3D41F33 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A0948B522131ACFFAE112FE0 /* Pods-venmo-sdk-integration-specs.debug.xcconfig */,
-				7BCC0CEBE52DEBF579DA9CF2 /* Pods-venmo-sdk-integration-specs.release.xcconfig */,
-				510F0726432616D68E29CCC9 /* Pods-venmo-sdk-specs.debug.xcconfig */,
-				99A71299EF58438D03B3F658 /* Pods-venmo-sdk-specs.release.xcconfig */,
 				799DE81C38EDBF246675B59F /* Pods-venmo-sdk.debug.xcconfig */,
 				A25572C42FBECBD50EF8743F /* Pods-venmo-sdk.release.xcconfig */,
-				D79349AB8C1EC9DB5D94207D /* Pods-venmo-sdk-venmo-sdk-integration-specs.debug.xcconfig */,
-				BCB22376DA5FB91506FBD783 /* Pods-venmo-sdk-venmo-sdk-integration-specs.release.xcconfig */,
-				C7E8CF4140D29B63CA6F6141 /* Pods-venmo-sdk-venmo-sdk-specs.debug.xcconfig */,
-				BD7D8F8DD958778E345B95E1 /* Pods-venmo-sdk-venmo-sdk-specs.release.xcconfig */,
 				47F6A8D7FDA73FF5695B7C26 /* Pods-venmo-sdk-specs-venmo-sdk-integration-specs.debug.xcconfig */,
 				6B4ADE1295EBB890F10953C9 /* Pods-venmo-sdk-specs-venmo-sdk-integration-specs.release.xcconfig */,
 				7B6A506CAC62C80D966C7936 /* Pods-venmo-sdk-specs-venmo-sdk-specs.debug.xcconfig */,
