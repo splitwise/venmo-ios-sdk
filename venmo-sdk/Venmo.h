@@ -1,7 +1,6 @@
 @import Foundation;
 @import UIKit;
-
-#import <VENCore/VENCore.h>
+@import VENCore;
 
 #import "VENErrors.h"
 #import "VENPermissionConstants.h"
